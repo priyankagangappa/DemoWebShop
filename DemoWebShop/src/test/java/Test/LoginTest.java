@@ -15,7 +15,7 @@ public class LoginTest extends BasePage {
 		LoginPage login=new LoginPage(driver);
 		login.getLogin_Link().click();
 		Reporter.log("Login page is displayed", true);
-		assertTrue(login.getLogin_Link().isSelected(), "Login page is not displayed");
+		
 		//Email id
 		login.getEmail_TextField().sendKeys("Priyagm123@gmail.com");
 		Reporter.log("Email id is entered");

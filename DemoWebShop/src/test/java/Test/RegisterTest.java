@@ -15,7 +15,7 @@ public class RegisterTest extends BasePage{
 		//Register link
 		register.getRegister_Link().click();
 		Reporter.log("Clicked on Register link", true);
-		assertTrue(register.getRegister_Link().isSelected(), "Register page is not displayed");
+	
 		//Gender radiobutton
 		register.getGender_Radiobutton().click();
 		Reporter.log("Clicked on radiobutton");
