@@ -15,6 +15,12 @@ public class LoginPage {
 	public WebElement getLogin_Link() {
 		return Login_Link;
 	}
+	@FindBy(xpath="//div[@class='page-title']")
+	private WebElement Login_Text;
+	
+	public WebElement getLogin_Text() {
+		return Login_Text;
+	}
 	@FindBy(id="Email")
 	private WebElement Email_TextField;
 

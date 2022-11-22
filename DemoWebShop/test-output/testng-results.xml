@@ -1,98 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Clicked on Register link]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on radiobutton]]>
+    </line>
+    <line>
+      <![CDATA[Email id is entered]]>
+    </line>
+    <line>
+      <![CDATA[Entered firstrname]]>
+    </line>
+    <line>
+      <![CDATA[Entered Last name]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered]]>
+    </line>
+    <line>
+      <![CDATA[Entered Email]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[password is confirmed]]>
+    </line>
+    <line>
+      <![CDATA[clicked on register button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login button]]>
+    </line>
+    <line>
+      <![CDATA[Homepage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[apparel and shoes page is diplayed]]>
+    </line>
+    <line>
+      <![CDATA[By default position option should be displyed in sort by dropdown]]>
+    </line>
+    <line>
+      <![CDATA[By default grid option should be diplayed in view as dropdown]]>
+    </line>
+    <line>
+      <![CDATA[By default 8 should be diplayed in display dropdown]]>
+    </line>
+    <line>
+      <![CDATA[product is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Product name should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[By default small should be displaed in size dropdown]]>
+    </line>
+    <line>
+      <![CDATA[By default 1 should be displayed in qty textfield]]>
+    </line>
+    <line>
+      <![CDATA[Product is added to cart  msg should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Shopping cart text should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Country is selected]]>
+    </line>
+    <line>
+      <![CDATA[Zip postel code is entered]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox is checked]]>
+    </line>
+    <line>
+      <![CDATA[check out page is diplayed]]>
+    </line>
+    <line>
+      <![CDATA[checkout page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Billing address is successfull]]>
+    </line>
+    <line>
+      <![CDATA[clicked on instore pick up]]>
+    </line>
+    <line>
+      <![CDATA[Shipping is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Payment methodn is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Payment info is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Ordfer is confirm]]>
+    </line>
+    <line>
+      <![CDATA[Thank you page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[home page should be displayed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-11-16T17:37:06 PST" name="Suite" finished-at="2022-11-16T17:39:33 PST" duration-ms="147378">
+  <suite started-at="2022-11-21T17:29:53 PST" name="Suite" finished-at="2022-11-21T17:31:01 PST" duration-ms="67737">
     <groups>
     </groups>
-    <test started-at="2022-11-16T17:37:06 PST" name="Test" finished-at="2022-11-16T17:39:33 PST" duration-ms="147378">
-      <class name="Test.LoginTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Test.LoginTest@3427b02d]" started-at="2022-11-16T17:37:06 PST" name="BrowserSetup" finished-at="2022-11-16T17:39:30 PST" duration-ms="144697" status="PASS">
+    <test started-at="2022-11-21T17:29:53 PST" name="Test" finished-at="2022-11-21T17:31:01 PST" duration-ms="67737">
+      <class name="Test.RegisterTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Test.RegisterTest@323b36e0]" started-at="2022-11-21T17:29:53 PST" name="BrowserSetup" finished-at="2022-11-21T17:30:30 PST" duration-ms="37063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="login()[pri:0, instance:Test.LoginTest@3427b02d]" started-at="2022-11-16T17:39:30 PST" name="login" finished-at="2022-11-16T17:39:31 PST" duration-ms="795" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.107)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'PRIYA', ip: '10.10.61.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9c80853c3ea02188f644795797e90c8, findElement {using=xpath, value=//a[text()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64973/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a9c80853c3ea02188f644795797e90c8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.107)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'PRIYA', ip: '10.10.61.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9c80853c3ea02188f644795797e90c8, findElement {using=xpath, value=//a[text()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64973/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a9c80853c3ea02188f644795797e90c8
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at Test.LoginTest.login(LoginTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="Register()[pri:0, instance:Test.RegisterTest@323b36e0]" started-at="2022-11-21T17:30:30 PST" name="Register" finished-at="2022-11-21T17:30:42 PST" duration-ms="11208" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Clicked on Register link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on radiobutton]]>
+            </line>
+            <line>
+              <![CDATA[Entered firstrname]]>
+            </line>
+            <line>
+              <![CDATA[Entered Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Email]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[password is confirmed]]>
+            </line>
+            <line>
+              <![CDATA[clicked on register button]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:Test.LoginTest@3427b02d]" started-at="2022-11-16T17:39:31 PST" name="ClosingBrowser" finished-at="2022-11-16T17:39:33 PST" duration-ms="1793" status="PASS">
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:Test.RegisterTest@323b36e0]" started-at="2022-11-21T17:30:42 PST" name="ClosingBrowser" finished-at="2022-11-21T17:30:43 PST" duration-ms="1286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosingBrowser -->
-      </class> <!-- Test.LoginTest -->
+      </class> <!-- Test.RegisterTest -->
+      <class name="Test.ApparelAndShoesTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Test.ApparelAndShoesTest@44ebcd03]" started-at="2022-11-21T17:29:53 PST" name="BrowserSetup" finished-at="2022-11-21T17:30:30 PST" duration-ms="36824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="Apparelandshoes()[pri:0, instance:Test.ApparelAndShoesTest@44ebcd03]" started-at="2022-11-21T17:30:30 PST" name="Apparelandshoes" finished-at="2022-11-21T17:30:52 PST" duration-ms="21536" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Email id is entered]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login button]]>
+            </line>
+            <line>
+              <![CDATA[Homepage is displayed]]>
+            </line>
+            <line>
+              <![CDATA[apparel and shoes page is diplayed]]>
+            </line>
+            <line>
+              <![CDATA[By default position option should be displyed in sort by dropdown]]>
+            </line>
+            <line>
+              <![CDATA[By default grid option should be diplayed in view as dropdown]]>
+            </line>
+            <line>
+              <![CDATA[By default 8 should be diplayed in display dropdown]]>
+            </line>
+            <line>
+              <![CDATA[product is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Product name should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[By default small should be displaed in size dropdown]]>
+            </line>
+            <line>
+              <![CDATA[By default 1 should be displayed in qty textfield]]>
+            </line>
+            <line>
+              <![CDATA[Product is added to cart  msg should be displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Apparelandshoes -->
+        <test-method signature="shopping()[pri:0, instance:Test.ApparelAndShoesTest@44ebcd03]" started-at="2022-11-21T17:30:52 PST" name="shopping" finished-at="2022-11-21T17:31:00 PST" duration-ms="7624" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Shopping cart text should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Country is selected]]>
+            </line>
+            <line>
+              <![CDATA[Zip postel code is entered]]>
+            </line>
+            <line>
+              <![CDATA[Checkbox is checked]]>
+            </line>
+            <line>
+              <![CDATA[check out page is diplayed]]>
+            </line>
+            <line>
+              <![CDATA[checkout page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Billing address is successfull]]>
+            </line>
+            <line>
+              <![CDATA[clicked on instore pick up]]>
+            </line>
+            <line>
+              <![CDATA[Shipping is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Payment methodn is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Payment info is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Ordfer is confirm]]>
+            </line>
+            <line>
+              <![CDATA[Thank you page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[home page should be displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:Test.ApparelAndShoesTest@44ebcd03]" started-at="2022-11-21T17:31:00 PST" name="ClosingBrowser" finished-at="2022-11-21T17:31:01 PST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+      </class> <!-- Test.ApparelAndShoesTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

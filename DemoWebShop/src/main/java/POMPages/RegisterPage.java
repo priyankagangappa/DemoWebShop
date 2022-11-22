@@ -15,6 +15,12 @@ public class RegisterPage {
 	public WebElement getRegister_Link() {
 		return Register_Link;
 	}
+	@FindBy(xpath="//div[@class='page-title']")
+	private WebElement Register_Text;
+	
+	public WebElement getRegister_Text() {
+		return Register_Text;
+	}
 	@FindBy(id="gender-female")
 	private WebElement Gender_Radiobutton;
 

@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
@@ -21,8 +22,8 @@ public class BasePage {
 		driver.get("https://demowebshop.tricentis.com/");
 		
 	}
-	@AfterMethod
+	@AfterClass
 	public void ClosingBrowser() {
 		driver.quit();
-	}
+		}
 }
